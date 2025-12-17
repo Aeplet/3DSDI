@@ -94,6 +94,7 @@ void get_manufacturer_name(uint8_t mid, char* buffer) {
             break;
         case 0x6F:
             set_buffer_string(buffer, "Netac");
+            break;
         default:
             set_buffer_string(buffer, "Unknown");
             break;
