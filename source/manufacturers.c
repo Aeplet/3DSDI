@@ -92,6 +92,8 @@ void get_manufacturer_name(uint8_t mid, char* buffer) {
         case 0xAD:
             set_buffer_string(buffer, "Longsys");
             break;
+        case 0x6F:
+            set_buffer_string(buffer, "Netac");
         default:
             set_buffer_string(buffer, "Unknown");
             break;
